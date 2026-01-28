@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(C:/xampp/xampp_start.exe)",
+      "Bash(C:/xampp/apache/bin/httpd.exe -k start)",
+      "Bash(C:/xampp/mysql/bin/mysql.exe:*)",
+      "Bash(curl:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Bash(dir:*)",
+      "Bash(timeout:*)",
+      "WebFetch(domain:innoafrica.org)",
+      "Bash(unzip:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)",
+      "Bash(node -e:*)",
+      "Bash(php wp-cli.phar theme:*)",
+      "Bash(C:/xampp/php/php.exe:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm run:*)",
+      "Bash(C:xamppxampp-control.exe)",
+      "Bash(cmd.exe /c start \"\" \"C:\\\\xampp\\\\xampp-control.exe\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: WordPress project setup\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

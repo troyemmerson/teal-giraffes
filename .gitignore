@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# WordPress config (contains database credentials)
+wp-config.php
+
+# Large binaries
+wp-cli.phar
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
