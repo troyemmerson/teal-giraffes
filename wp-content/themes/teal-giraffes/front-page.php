@@ -12,19 +12,21 @@ get_header();
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1 class="hero-title">Learning Based Solutions to Environmental Sustainability Challenges</h1>
+            <span class="hero-eyebrow">Community-Led Conservation</span>
+            <h1 class="hero-title">Learning Based Solutions to <em>Environmental Sustainability</em> Challenges</h1>
             <p class="hero-subtitle">Changing minds and systems for a more sustainable planet through community-led transformation</p>
             <div class="hero-buttons">
                 <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-white btn-lg">Apply for a Program</a>
-                <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Fund a Community</a>
+                <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-accent btn-lg">Fund a Community</a>
             </div>
         </div>
     </section>
 
     <!-- What We Do Section -->
-    <section class="section section-light">
+    <section class="section section-warm">
         <div class="container">
             <div class="section-header">
+                <span class="section-eyebrow">Our Approach</span>
                 <h2 class="section-title">What We Do</h2>
                 <p class="section-subtitle">Creating lasting change through education, research, and connection</p>
             </div>
@@ -83,27 +85,40 @@ get_header();
     </section>
 
     <!-- Impact Stats Section -->
-    <section class="section section-primary">
+    <section class="section section-muted-teal">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title" style="color: white;">Our Impact</h2>
+                <span class="section-eyebrow" style="color: rgba(255,255,255,0.8);">Our Work at a Glance</span>
+                <h2 class="section-title section-title-underline" style="color: white;">Our Impact</h2>
                 <p class="section-subtitle">Real change in real communities</p>
             </div>
 
             <div class="stats-grid">
                 <div class="stat-item animate-on-scroll">
+                    <div class="stat-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
                     <div class="stat-number">206+</div>
                     <div class="stat-label">Participants Trained</div>
                 </div>
                 <div class="stat-item animate-on-scroll">
+                    <div class="stat-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
                     <div class="stat-number">4</div>
                     <div class="stat-label">Programs Delivered</div>
                 </div>
                 <div class="stat-item animate-on-scroll">
+                    <div class="stat-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
                     <div class="stat-number">2</div>
                     <div class="stat-label">Countries</div>
                 </div>
                 <div class="stat-item animate-on-scroll">
+                    <div class="stat-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
                     <div class="stat-number">80%+</div>
                     <div class="stat-label">Completion Rate</div>
                 </div>
@@ -115,6 +130,7 @@ get_header();
     <section class="section">
         <div class="container">
             <div class="section-header">
+                <span class="section-eyebrow">Get Started</span>
                 <h2 class="section-title">How It Works</h2>
                 <p class="section-subtitle">Simple steps to create lasting change</p>
             </div>
@@ -185,6 +201,7 @@ get_header();
     <section class="section section-light">
         <div class="container">
             <div class="section-header">
+                <span class="section-eyebrow">Testimonials</span>
                 <h2 class="section-title">What Participants Say</h2>
                 <p class="section-subtitle">Voices from our programs</p>
             </div>
@@ -230,6 +247,7 @@ get_header();
     <section class="section">
         <div class="container">
             <div class="section-header">
+                <span class="section-eyebrow">Featured Work</span>
                 <h2 class="section-title">Our Projects</h2>
                 <p class="section-subtitle">Communities we've worked with</p>
             </div>
@@ -241,12 +259,12 @@ get_header();
                         <div class="placeholder-image" style="height: 100%;">Namibia Project</div>
                     </div>
                     <div class="card-content">
-                        <span class="text-muted" style="font-size: 0.875rem;">Namibia</span>
+                        <span class="card-meta">Namibia</span>
                         <h3 class="card-title">Human-Wildlife Coexistence Program</h3>
                         <p class="card-text">Social learning program focused on transforming conflict into coexistence.</p>
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <span class="text-muted" style="font-size: 0.875rem;">2019-2023</span>
-                            <a href="#" class="btn btn-secondary btn-sm">Learn More</a>
+                        <div class="card-footer">
+                            <span class="text-muted">2019-2023</span>
+                            <a href="#" class="btn-arrow">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -257,12 +275,12 @@ get_header();
                         <div class="placeholder-image" style="height: 100%;">Namibia Agriculture</div>
                     </div>
                     <div class="card-content">
-                        <span class="text-muted" style="font-size: 0.875rem;">Namibia</span>
+                        <span class="card-meta">Namibia</span>
                         <h3 class="card-title">Sustainable Agriculture Leadership</h3>
                         <p class="card-text">Leadership program for sustainable farming practices and environmental stewardship.</p>
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <span class="text-muted" style="font-size: 0.875rem;">2025</span>
-                            <a href="#" class="btn btn-secondary btn-sm">Learn More</a>
+                        <div class="card-footer">
+                            <span class="text-muted">2025</span>
+                            <a href="#" class="btn-arrow">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -273,12 +291,12 @@ get_header();
                         <div class="placeholder-image" style="height: 100%;">South Africa Project</div>
                     </div>
                     <div class="card-content">
-                        <span class="text-muted" style="font-size: 0.875rem;">South Africa</span>
+                        <span class="card-meta">South Africa</span>
                         <h3 class="card-title">Human-Baboon Coexistence</h3>
                         <p class="card-text">Addressing urban-wildlife interface challenges through community education.</p>
-                        <div style="display: flex; justify-content: space-between; align-items: center;">
-                            <span class="text-muted" style="font-size: 0.875rem;">2025</span>
-                            <a href="#" class="btn btn-secondary btn-sm">Learn More</a>
+                        <div class="card-footer">
+                            <span class="text-muted">2025</span>
+                            <a href="#" class="btn-arrow">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -305,13 +323,12 @@ get_header();
     <!-- CTA Section -->
     <section class="section">
         <div class="container">
-            <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: var(--radius-xl); padding: 4rem 2rem; text-align: center; color: white; position: relative; overflow: hidden;">
-                <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
-                <h2 style="color: white; margin-bottom: 1rem; position: relative;">Ready to Make a Difference?</h2>
-                <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
+            <div class="cta-box">
+                <h2>Ready to Make a Difference?</h2>
+                <p>Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
+                <div class="btn-group">
                     <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-white btn-lg">Apply for a Program</a>
-                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Fund a Community</a>
+                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-accent btn-lg">Fund a Community</a>
                 </div>
             </div>
         </div>
