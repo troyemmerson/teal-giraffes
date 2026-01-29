@@ -30,7 +30,6 @@
                     <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About Us</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>">Our Projects</a></li>
-                    <li><a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>">Apply for Program</a></li>
                     <li><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Contact</a></li>
                 </ul>
             </div>

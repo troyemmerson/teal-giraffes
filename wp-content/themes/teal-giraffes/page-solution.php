@@ -209,14 +209,11 @@ get_header();
                 <div class="two-col-content animate-on-scroll">
                     <p>Our programs target communities who share landscapes with wildlife and we recruit <strong>volunteers who would like to be change leaders</strong> in their communities.</p>
                     <p>These change leaders promote societal transformation towards sustainable human-wildlife social-ecological systems where people and wildlife share the landscape in mutual coexistence.</p>
-                    <p>Our programs also promote environmentally sustainable human livelihood activities.</p>
                     <h4 style="margin: 0 0 0.75rem 0; color: var(--color-primary);">Why Grassroots Focus?</h4>
                     <p style="margin: 0;">While we often invite other stakeholders such as those already in leadership positions, these people are often not available for the 2-3 month program. Our approach focuses on individual grassroots farmers and community members to empower and up-skill them to become new leaders and lead the change.</p>
                 </div>
                 <div class="two-col-image animate-on-scroll">
-                    <div class="placeholder-image">
-                        <span>Community Leaders Image</span>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=600&h=400&fit=crop" alt="Community leaders in discussion" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-lg);">
                 </div>
             </div>
         </div>
@@ -274,9 +271,9 @@ get_header();
                 <div class="animate-on-scroll">
                     <p style="color: rgba(255,255,255,0.9);">Our research investigated factors that determine why some people are more tolerant than others towards living near different wildlife species. We measured:</p>
                     <ul style="list-style: none; padding: 0; color: rgba(255,255,255,0.9); margin: 1rem 0;">
-                        <li style="margin-bottom: 0.5rem;">&#8226; Willingness to tolerate some wildlife damage</li>
-                        <li style="margin-bottom: 0.5rem;">&#8226; Willingness to tolerate proximity of wildlife</li>
-                        <li style="margin-bottom: 0.5rem;">&#8226; Willingness to refrain from killing wildlife</li>
+                        <li>&#8226; Willingness to tolerate some wildlife damage</li>
+                        <li>&#8226; Willingness to tolerate proximity of wildlife</li>
+                        <li>&#8226; Willingness to refrain from killing wildlife</li>
                         <li>&#8226; Willingness to support wildlife population increases</li>
                     </ul>
                     <p style="color: rgba(255,255,255,0.9);">We tested these in <strong>9 countries</strong> with <strong>12 species</strong> in <strong>23 cases</strong>.</p>
@@ -287,11 +284,11 @@ get_header();
                         <p style="color: rgba(255,255,255,0.9); margin-bottom: 1rem;">The two most consistent factors driving tolerance were:</p>
                         <div style="display: flex; gap: 1rem; flex-direction: column;">
                             <div style="display: flex; gap: 0.75rem; align-items: flex-start;">
-                                <span style="width: 28px; height: 28px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--color-dark); font-weight: 700; flex-shrink: 0;">1</span>
+                                <span style="width: 28px; height: 28px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; flex-shrink: 0;">1</span>
                                 <span style="color: rgba(255,255,255,0.9);">The extent a person had <strong>empathy</strong> for the wildlife species</span>
                             </div>
                             <div style="display: flex; gap: 0.75rem; align-items: flex-start;">
-                                <span style="width: 28px; height: 28px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--color-dark); font-weight: 700; flex-shrink: 0;">2</span>
+                                <span style="width: 28px; height: 28px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; flex-shrink: 0;">2</span>
                                 <span style="color: rgba(255,255,255,0.9);">The extent a person perceived <strong>non-monetary benefits</strong> (cultural value, beauty, appreciation of existence)</span>
                             </div>
                         </div>
@@ -310,7 +307,7 @@ get_header();
                 <h2 style="color: white; margin-bottom: 1rem; position: relative;">Ready to Transform Your Community?</h2>
                 <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
                 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
-                    <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-white btn-lg">Apply for a Program</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-white btn-lg">Contact Us</a>
                     <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Fund a Community</a>
                 </div>
             </div>

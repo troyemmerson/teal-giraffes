@@ -95,14 +95,13 @@ get_header();
         <div class="container">
             <div class="two-col" style="gap: 4rem; align-items: center;">
                 <div class="two-col-image animate-on-scroll">
-                    <div class="placeholder-image" style="aspect-ratio: 1; border-radius: var(--radius-lg); border: 4px solid rgba(255,255,255,0.3);">Ruth Kansky Photo</div>
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop" alt="Dr. Ruth Kansky - Founder" style="aspect-ratio: 1; border-radius: var(--radius-lg); border: 4px solid rgba(255,255,255,0.3); width: 100%; object-fit: cover;">
                 </div>
                 <div class="two-col-content animate-on-scroll" style="color: white;">
                     <h2 style="color: white; margin-bottom: 0.5rem;">Meet the Founder</h2>
                     <h3 style="color: var(--color-secondary); margin-bottom: 1.5rem;">Dr. Ruth Kansky</h3>
                     <p style="color: rgba(255,255,255,0.9);">Ruth Kansky is the director and founder of Teal Giraffes. With extensive research experience in human-wildlife coexistence across multiple continents, she combines scientific rigor with practical community-based approaches.</p>
                     <p style="color: rgba(255,255,255,0.9);">Her work has been published in leading conservation journals and has directly informed the development of our innovative social learning programs.</p>
-                    <a href="#publications" class="btn btn-white" style="margin-top: 1rem;">View Publications</a>
                 </div>
             </div>
         </div>
@@ -184,7 +183,7 @@ get_header();
                 <h2 style="color: white; margin-bottom: 1rem; position: relative;">Join Our Mission</h2>
                 <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Whether you're a community seeking support, a researcher looking to collaborate, or a donor wanting to make an impact - we'd love to hear from you.</p>
                 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
-                    <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-white btn-lg">Apply for a Program</a>
+                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-white btn-lg">Fund a Community</a>
                     <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Get in Touch</a>
                 </div>
             </div>

@@ -50,7 +50,6 @@ function teal_giraffes_fallback_menu() {
         <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
         <li><a href="<?php echo esc_url( home_url( '/about/' ) ); ?>">About</a></li>
         <li><a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>">Projects</a></li>
-        <li><a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>">Apply</a></li>
         <li class="menu-btn-donate"><a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>">Donate</a></li>
         <li class="menu-btn-contact"><a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>">Contact Us</a></li>
     </ul>

@@ -146,7 +146,7 @@ get_header();
                 <div class="grid-2" style="gap: 2rem;">
                     <div class="card animate-on-scroll" style="overflow: hidden;">
                         <div class="card-image" style="height: 200px;">
-                            <div class="placeholder-image" style="height: 100%;">South Africa</div>
+                            <img src="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?w=400&h=200&fit=crop" alt="Human-baboon coexistence in South Africa" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="card-content">
                             <span style="display: inline-block; background: var(--color-warning); color: var(--color-dark); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600; margin-bottom: 0.75rem;">Seeking Funding</span>
@@ -167,13 +167,13 @@ get_header();
 
                     <div class="card animate-on-scroll" style="overflow: hidden;">
                         <div class="card-image" style="height: 200px;">
-                            <div class="placeholder-image" style="height: 100%;">Your Community</div>
+                            <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=400&h=200&fit=crop" alt="Community gathering" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="card-content">
-                            <span style="display: inline-block; background: var(--color-primary); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600; margin-bottom: 0.75rem;">Apply Now</span>
-                            <h3 class="card-title">Your Community Could Be Next</h3>
-                            <p class="card-text">We're always looking for new communities to partner with. Apply now to be considered for funding.</p>
-                            <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-primary btn-sm" style="margin-top: 0.5rem;">Apply for a Program</a>
+                            <span style="display: inline-block; background: var(--color-primary); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600; margin-bottom: 0.75rem;">Get Involved</span>
+                            <h3 class="card-title">Want to Learn More?</h3>
+                            <p class="card-text">We're always looking for new communities to partner with. Contact us to learn about our programs.</p>
+                            <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-primary btn-sm" style="margin-top: 0.5rem;">Contact Us</a>
                         </div>
                     </div>
                 </div>

@@ -10,20 +10,19 @@ get_header();
 
 <main id="main" class="site-main">
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero hero-image" style="background-image: url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1920&q=80');">
         <div class="hero-content">
-            <span class="hero-eyebrow">Community-Led Conservation</span>
             <h1 class="hero-title">Learning Based Solutions to <em>Environmental Sustainability</em> Challenges</h1>
             <p class="hero-subtitle">Changing minds and systems for a more sustainable planet through community-led transformation</p>
             <div class="hero-buttons">
-                <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-white btn-lg">Apply for a Program</a>
+                <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-white btn-lg">Learn More</a>
                 <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-accent btn-lg">Fund a Community</a>
             </div>
         </div>
     </section>
 
     <!-- What We Do Section -->
-    <section class="section section-warm">
+    <section class="section section-light">
         <div class="container">
             <div class="section-header">
                 <span class="section-eyebrow">Our Approach</span>
@@ -49,7 +48,7 @@ get_header();
                     </div>
                     <h3>Community Matchmaking</h3>
                     <p>Connecting community organisations seeking learning programs with donors seeking meaningful projects to fund.</p>
-                    <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-secondary">Get Matched</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary">Get in Touch</a>
                 </div>
 
                 <!-- Feature 3 -->
@@ -59,7 +58,7 @@ get_header();
                     </div>
                     <h3>Research Support</h3>
                     <p>Bridging the gap between communities and researchers to generate evidence-based solutions for environmental challenges.</p>
-                    <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-secondary">Apply for Research</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -76,9 +75,7 @@ get_header();
                     <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-primary mt-3">Learn About Our Approach</a>
                 </div>
                 <div class="two-col-image animate-on-scroll">
-                    <div class="placeholder-image">
-                        <span>Wildlife & Community Image</span>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&h=400&fit=crop" alt="Wildlife and community coexistence" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-lg);">
                 </div>
             </div>
         </div>
@@ -162,7 +159,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-primary mt-4">Apply Now</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-primary mt-4">Contact Us</a>
                 </div>
 
                 <!-- For Donors -->
@@ -256,7 +253,7 @@ get_header();
                 <!-- Project 1 -->
                 <div class="card animate-on-scroll">
                     <div class="card-image">
-                        <div class="placeholder-image" style="height: 100%;">Namibia Project</div>
+                        <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=400&h=250&fit=crop" alt="Namibia wildlife project" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="card-content">
                         <span class="card-meta">Namibia</span>
@@ -272,7 +269,7 @@ get_header();
                 <!-- Project 2 -->
                 <div class="card animate-on-scroll">
                     <div class="card-image">
-                        <div class="placeholder-image" style="height: 100%;">Namibia Agriculture</div>
+                        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=250&fit=crop" alt="Sustainable agriculture in Namibia" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="card-content">
                         <span class="card-meta">Namibia</span>
@@ -288,7 +285,7 @@ get_header();
                 <!-- Project 3 -->
                 <div class="card animate-on-scroll">
                     <div class="card-image">
-                        <div class="placeholder-image" style="height: 100%;">South Africa Project</div>
+                        <img src="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?w=400&h=250&fit=crop" alt="Human-baboon coexistence project" style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div class="card-content">
                         <span class="card-meta">South Africa</span>
@@ -327,7 +324,7 @@ get_header();
                 <h2>Ready to Make a Difference?</h2>
                 <p>Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
                 <div class="btn-group">
-                    <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-white btn-lg">Apply for a Program</a>
+                    <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-white btn-lg">Learn More</a>
                     <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-accent btn-lg">Fund a Community</a>
                 </div>
             </div>
