@@ -68,7 +68,7 @@ get_header();
                                         </div>
                                     </div>
                                 <?php endif; ?>
-                                <a href="<?php the_permalink(); ?>" class="btn btn-success btn-sm" style="width: 100%;">Donate to This Project</a>
+                                <a href="<?php the_permalink(); ?>" class="btn btn-primary btn-sm" style="width: 100%;">Donate to This Project</a>
                             </div>
                         </div>
                     <?php endwhile; wp_reset_postdata(); ?>
@@ -159,7 +159,7 @@ get_header();
                                 <div class="progress-fill" style="width: 25%;"></div>
                             </div>
                         </div>
-                        <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-success btn-sm" style="width: 100%;">Fund This Project</a>
+                        <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary btn-sm" style="width: 100%;">Fund This Project</a>
                     </div>
                 </div>
 
@@ -233,13 +233,13 @@ get_header();
     <!-- CTA -->
     <section class="section">
         <div class="container">
-            <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: var(--radius-xl); padding: 4rem 2rem; text-align: center; color: white; position: relative; overflow: hidden;">
+            <div class="cta-box" style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);">
                 <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
                 <h2 style="color: white; margin-bottom: 1rem; position: relative;">Want to Support Our Work?</h2>
                 <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Your funding helps communities transform their relationships with wildlife and build sustainable futures.</p>
                 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
-                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-white btn-lg">Fund a Community</a>
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Contact Us</a>
+                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary btn-lg">Fund a Community</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary btn-lg">Contact Us</a>
                 </div>
             </div>
         </div>

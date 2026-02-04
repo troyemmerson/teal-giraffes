@@ -302,13 +302,13 @@ get_header();
     <!-- CTA Section -->
     <section class="section">
         <div class="container">
-            <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: var(--radius-xl); padding: 4rem 2rem; text-align: center; color: white; position: relative; overflow: hidden;">
+            <div class="cta-box" style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);">
                 <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
                 <h2 style="color: white; margin-bottom: 1rem; position: relative;">Ready to Transform Your Community?</h2>
                 <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
                 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-white btn-lg">Contact Us</a>
-                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Fund a Community</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-primary btn-lg">Contact Us</a>
+                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-secondary btn-lg">Fund a Community</a>
                 </div>
             </div>
         </div>

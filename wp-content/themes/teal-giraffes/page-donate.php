@@ -15,8 +15,8 @@ get_header();
             <h1 class="hero-title">Fund a Community in Need</h1>
             <p class="hero-subtitle">Your support transforms communities and creates lasting change for people and wildlife</p>
             <div class="hero-buttons">
-                <a href="#projects-seeking-funding" class="btn btn-white btn-lg">View Projects</a>
-                <a href="#donate-form" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Donate Now</a>
+                <a href="#projects-seeking-funding" class="btn btn-primary btn-lg">View Projects</a>
+                <a href="#donate-form" class="btn btn-secondary btn-lg">Donate Now</a>
             </div>
         </div>
     </section>
@@ -51,7 +51,7 @@ get_header();
                             <span>Recognition in reports</span>
                         </li>
                     </ul>
-                    <a href="#projects-seeking-funding" class="btn btn-success">View Projects</a>
+                    <a href="#projects-seeking-funding" class="btn btn-primary">View Projects</a>
                 </div>
 
                 <!-- Option 2: Program + Evaluation -->
@@ -161,7 +161,7 @@ get_header();
                                     <div class="progress-fill" style="width: 25%;"></div>
                                 </div>
                             </div>
-                            <a href="#donate-form" class="btn btn-success btn-sm">Donate to This Project</a>
+                            <a href="#donate-form" class="btn btn-primary btn-sm">Donate to This Project</a>
                         </div>
                     </div>
 
@@ -187,12 +187,12 @@ get_header();
     <!-- Other Ways to Help -->
     <section class="section">
         <div class="container">
-            <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: var(--radius-xl); padding: 4rem 2rem; text-align: center; color: white; position: relative; overflow: hidden;">
+            <div class="cta-box" style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);">
                 <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
                 <h2 style="color: white; margin-bottom: 1rem; position: relative;">Other Ways to Help</h2>
                 <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Can't donate right now? There are other ways you can support our mission.</p>
                 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
-                    <a href="#" class="btn btn-white">Share Our Work</a>
+                    <a href="#" class="btn btn-secondary">Share Our Work</a>
                     <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary" style="border-color: white; color: white;">Volunteer</a>
                     <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary" style="border-color: white; color: white;">Corporate Partnership</a>
                 </div>

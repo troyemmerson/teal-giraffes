@@ -15,8 +15,8 @@ get_header();
             <h1 class="hero-title">Learning Based Solutions to <em>Environmental Sustainability</em> Challenges</h1>
             <p class="hero-subtitle">Changing minds and systems for a more sustainable planet through community-led transformation</p>
             <div class="hero-buttons">
-                <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-white btn-lg">Learn More</a>
-                <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-accent btn-lg">Fund a Community</a>
+                <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-secondary btn-lg">Learn More</a>
+                <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary btn-lg">Fund a Community</a>
             </div>
         </div>
     </section>
@@ -81,43 +81,69 @@ get_header();
         </div>
     </section>
 
-    <!-- Impact Stats Section -->
-    <section class="section section-muted-teal">
+    <!-- Testimonials Section -->
+    <section class="section section-light">
         <div class="container">
             <div class="section-header">
-                <span class="section-eyebrow" style="color: rgba(255,255,255,0.8);">Our Work at a Glance</span>
-                <h2 class="section-title section-title-underline" style="color: white;">Our Impact</h2>
-                <p class="section-subtitle">Real change in real communities</p>
+                <span class="section-eyebrow">Testimonials</span>
+                <h2 class="section-title">What Participants Say</h2>
+                <p class="section-subtitle">Voices from our programs</p>
             </div>
 
-            <div class="stats-grid">
-                <div class="stat-item animate-on-scroll">
-                    <div class="stat-icon">
-                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <div class="testimonial-slider" id="testimonial-slider">
+                <div class="testimonial-slider-track">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial">
+                            <p class="testimonial-text">"The program changed how I see wildlife. I now understand that we share this land and can find ways to live together peacefully."</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar"></div>
+                                <div>
+                                    <div class="testimonial-name">Program Participant</div>
+                                    <div class="testimonial-role">Namibia 2022</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="stat-number">206+</div>
-                    <div class="stat-label">Participants Trained</div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial">
+                            <p class="testimonial-text">"I learned to communicate without blame. This has helped not just with wildlife issues but with my family and community."</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar"></div>
+                                <div>
+                                    <div class="testimonial-name">Community Leader</div>
+                                    <div class="testimonial-role">Namibia 2023</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial">
+                            <p class="testimonial-text">"The systems thinking approach opened my eyes. I now see how everything is connected and how small changes can make big differences."</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar"></div>
+                                <div>
+                                    <div class="testimonial-name">Farmer</div>
+                                    <div class="testimonial-role">South Africa 2025</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="stat-item animate-on-scroll">
-                    <div class="stat-icon">
-                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+
+                <div class="testimonial-slider-controls">
+                    <button class="testimonial-slider-btn testimonial-slider-prev" aria-label="Previous testimonial">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                    </button>
+                    <div class="testimonial-slider-dots">
+                        <button class="testimonial-dot active" data-slide="0" aria-label="Go to testimonial 1"></button>
+                        <button class="testimonial-dot" data-slide="1" aria-label="Go to testimonial 2"></button>
+                        <button class="testimonial-dot" data-slide="2" aria-label="Go to testimonial 3"></button>
                     </div>
-                    <div class="stat-number">4</div>
-                    <div class="stat-label">Programs Delivered</div>
-                </div>
-                <div class="stat-item animate-on-scroll">
-                    <div class="stat-icon">
-                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                    </div>
-                    <div class="stat-number">2</div>
-                    <div class="stat-label">Countries</div>
-                </div>
-                <div class="stat-item animate-on-scroll">
-                    <div class="stat-icon">
-                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                    </div>
-                    <div class="stat-number">80%+</div>
-                    <div class="stat-label">Completion Rate</div>
+                    <button class="testimonial-slider-btn testimonial-slider-next" aria-label="Next testimonial">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                    </button>
                 </div>
             </div>
         </div>
@@ -188,53 +214,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-success mt-4">Fund a Community</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="section section-light">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-eyebrow">Testimonials</span>
-                <h2 class="section-title">What Participants Say</h2>
-                <p class="section-subtitle">Voices from our programs</p>
-            </div>
-
-            <div class="grid-3">
-                <div class="testimonial animate-on-scroll">
-                    <p class="testimonial-text">"The program changed how I see wildlife. I now understand that we share this land and can find ways to live together peacefully."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar"></div>
-                        <div>
-                            <div class="testimonial-name">Program Participant</div>
-                            <div class="testimonial-role">Namibia 2022</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial animate-on-scroll">
-                    <p class="testimonial-text">"I learned to communicate without blame. This has helped not just with wildlife issues but with my family and community."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar"></div>
-                        <div>
-                            <div class="testimonial-name">Community Leader</div>
-                            <div class="testimonial-role">Namibia 2023</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial animate-on-scroll">
-                    <p class="testimonial-text">"The systems thinking approach opened my eyes. I now see how everything is connected and how small changes can make big differences."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar"></div>
-                        <div>
-                            <div class="testimonial-name">Farmer</div>
-                            <div class="testimonial-role">South Africa 2025</div>
-                        </div>
-                    </div>
+                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary mt-4">Fund a Community</a>
                 </div>
             </div>
         </div>
@@ -261,7 +241,7 @@ get_header();
                         <p class="card-text">Social learning program focused on transforming conflict into coexistence.</p>
                         <div class="card-footer">
                             <span class="text-muted">2019-2023</span>
-                            <a href="#" class="btn-arrow">Learn More</a>
+                            <a href="#" class="btn btn-secondary btn-sm">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -277,7 +257,7 @@ get_header();
                         <p class="card-text">Leadership program for sustainable farming practices and environmental stewardship.</p>
                         <div class="card-footer">
                             <span class="text-muted">2025</span>
-                            <a href="#" class="btn-arrow">Learn More</a>
+                            <a href="#" class="btn btn-secondary btn-sm">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -293,7 +273,7 @@ get_header();
                         <p class="card-text">Addressing urban-wildlife interface challenges through community education.</p>
                         <div class="card-footer">
                             <span class="text-muted">2025</span>
-                            <a href="#" class="btn-arrow">Learn More</a>
+                            <a href="#" class="btn btn-secondary btn-sm">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -324,8 +304,8 @@ get_header();
                 <h2>Ready to Make a Difference?</h2>
                 <p>Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
                 <div class="btn-group">
-                    <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-white btn-lg">Learn More</a>
-                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-accent btn-lg">Fund a Community</a>
+                    <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-secondary btn-lg">Learn More</a>
+                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary btn-lg">Fund a Community</a>
                 </div>
             </div>
         </div>

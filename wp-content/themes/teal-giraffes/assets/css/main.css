@@ -7,34 +7,34 @@
    CSS Variables
    ======================================== */
 :root {
-    /* Primary Colors - Refined Teal Palette */
-    --color-primary: #2d6a6a;
-    --color-primary-dark: #1e4d4d;
-    --color-primary-light: #3d8b8b;
+    /* Primary Colors - Vibrant Teal Palette */
+    --color-primary: #1e9892;
+    --color-primary-dark: #17756f;
+    --color-primary-light: #27ccc3;
 
-    /* Accent Colors - Warm Earth Tones */
-    --color-accent: #d4883a;
-    --color-accent-dark: #b8722e;
-    --color-accent-light: #e9a55c;
+    /* Accent Colors - Warm Orange */
+    --color-accent: #ed9558;
+    --color-accent-dark: #d4803e;
+    --color-accent-light: #f2ad7a;
 
-    /* Secondary - Muted Teal/Blue */
-    --color-secondary: #5a9a9a;
-    --color-secondary-muted: #7eb5b5;
+    /* Secondary - Lime Green */
+    --color-secondary: #bfd866;
+    --color-secondary-muted: #cce07f;
 
     /* Warm neutrals */
     --color-warm-bg: #f8f5f0;
     --color-warm-bg-dark: #ede8e0;
 
     /* Status Colors */
-    --color-success: #3d8b6e;
-    --color-warning: #d4883a;
+    --color-success: #1e9892;
+    --color-warning: #ed9558;
     --color-danger: #c44536;
 
     /* Text Colors */
-    --color-dark: #1a2e35;
-    --color-text: #3d4f5f;
-    --color-text-light: #5a6f7a;
-    --color-text-muted: #8a9aa5;
+    --color-dark: #3a3a3a;
+    --color-text: #3a3a3a;
+    --color-text-light: #5a5a5a;
+    --color-text-muted: #969696;
 
     /* Neutrals */
     --color-white: #ffffff;
@@ -42,10 +42,10 @@
     --color-gray-100: #f3f4f6;
     --color-gray-200: #e5e7eb;
     --color-gray-300: #d1d5db;
-    --color-gray-400: #9ca3af;
+    --color-gray-400: #969696;
 
     /* Typography */
-    --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    --font-heading: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
     /* Shadows */
@@ -224,14 +224,51 @@ p {
     transform: translateY(-2px);
 }
 
-.btn-accent {
-    background-color: var(--color-accent);
+/* Buttons on dark backgrounds */
+.hero .btn-secondary,
+.cta-box .btn-secondary,
+.section-dark .btn-secondary,
+.section-primary .btn-secondary,
+.section-muted-teal .btn-secondary {
+    border-color: var(--color-white);
     color: var(--color-white);
 }
 
+.hero .btn-secondary:hover,
+.cta-box .btn-secondary:hover,
+.section-dark .btn-secondary:hover,
+.section-primary .btn-secondary:hover,
+.section-muted-teal .btn-secondary:hover {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+
+.hero .btn-primary,
+.cta-box .btn-primary,
+.section-dark .btn-primary,
+.section-primary .btn-primary,
+.section-muted-teal .btn-primary {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+
+.hero .btn-primary:hover,
+.cta-box .btn-primary:hover,
+.section-dark .btn-primary:hover,
+.section-primary .btn-primary:hover,
+.section-muted-teal .btn-primary:hover {
+    background-color: var(--color-gray-100);
+    color: var(--color-primary-dark);
+}
+
+.btn-accent {
+    background-color: #bfd866;
+    color: var(--color-dark);
+}
+
 .btn-accent:hover {
-    background-color: var(--color-accent-dark);
-    color: var(--color-white);
+    background-color: #a8c24a;
+    color: var(--color-dark);
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
 }
@@ -377,7 +414,7 @@ p {
 
 /* Menu Buttons */
 .main-nav .menu-btn-donate > a {
-    background-color: var(--color-accent);
+    background-color: var(--color-primary);
     color: var(--color-white) !important;
     padding: 0.625rem 1.5rem;
     border-radius: var(--radius);
@@ -385,7 +422,7 @@ p {
 }
 
 .main-nav .menu-btn-donate > a:hover {
-    background-color: var(--color-accent-dark);
+    background-color: var(--color-primary-dark);
     transform: translateY(-2px);
 }
 
@@ -488,7 +525,7 @@ p {
 
 .hero-title em {
     font-style: normal;
-    color: var(--color-accent-light);
+    color: #27ccc3;
 }
 
 .hero-subtitle {
@@ -544,7 +581,7 @@ p {
 }
 
 .section-muted-teal {
-    background: linear-gradient(135deg, #5a8a8a 0%, #4a7575 100%);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
     color: var(--color-white);
 }
 
@@ -976,11 +1013,86 @@ p {
     color: var(--color-text-muted);
 }
 
+/* Testimonial Slider */
+.testimonial-slider {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.testimonial-slider-track {
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+}
+
+.testimonial-slide {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.testimonial-slide.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.testimonial-slider-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.testimonial-slider-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: var(--radius-full);
+    border: 2px solid var(--color-gray-300);
+    background: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--color-text);
+    transition: all var(--transition);
+}
+
+.testimonial-slider-btn:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: var(--color-white);
+}
+
+.testimonial-slider-dots {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.testimonial-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: var(--radius-full);
+    border: none;
+    background: var(--color-gray-300);
+    cursor: pointer;
+    padding: 0;
+    transition: all var(--transition);
+}
+
+.testimonial-dot.active {
+    background: var(--color-primary);
+    width: 28px;
+}
+
 /* ========================================
    Newsletter (GiveDirectly-inspired)
    ======================================== */
 .newsletter {
-    background: var(--color-dark);
+    background: #1e9892;
     padding: 5rem 0;
     text-align: center;
     color: var(--color-white);
