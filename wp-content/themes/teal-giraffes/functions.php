@@ -52,10 +52,10 @@ add_action( 'after_setup_theme', 'teal_giraffes_setup' );
  * Enqueue Scripts and Styles
  */
 function teal_giraffes_scripts() {
-    // Google Fonts - Montserrat for headings, Inter for body
+    // Google Fonts - Montserrat for headings, Inter for body, Dancing Script for cursive labels
     wp_enqueue_style(
         'teal-giraffes-fonts',
-        'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap',
+        'https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap',
         array(),
         null
     );

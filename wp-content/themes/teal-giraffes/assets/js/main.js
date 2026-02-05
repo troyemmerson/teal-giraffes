@@ -12,6 +12,7 @@
         initSmoothScroll();
         initAnimateOnScroll();
         initTestimonialSlider();
+        initScrollToTop();
     });
 
     /**
@@ -136,6 +137,19 @@
             });
         });
 
+    }
+
+    /**
+     * Scroll to Top Button
+     */
+    function initScrollToTop() {
+        var scrollTopBtn = document.querySelector('.footer-scroll-top');
+        if (!scrollTopBtn) return;
+
+        scrollTopBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     }
 
     /**

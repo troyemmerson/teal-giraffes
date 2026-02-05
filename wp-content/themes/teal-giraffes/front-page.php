@@ -10,13 +10,12 @@ get_header();
 
 <main id="main" class="site-main">
     <!-- Hero Section -->
-    <section class="hero hero-image" style="background-image: url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1920&q=80');">
+    <section class="hero hero-image" style="background-image: url('https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=1920&q=80');">
         <div class="hero-content">
-            <h1 class="hero-title">Learning Based Solutions to <em>Environmental Sustainability</em> Challenges</h1>
-            <p class="hero-subtitle">Changing minds and systems for a more sustainable planet through community-led transformation</p>
+            <h1 class="hero-title">Promoting human-wildlife coexistence</h1>
             <div class="hero-buttons">
+                <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary btn-lg">Start Today</a>
                 <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-secondary btn-lg">Learn More</a>
-                <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary btn-lg">Fund a Community</a>
             </div>
         </div>
     </section>
@@ -25,16 +24,16 @@ get_header();
     <section class="section section-light">
         <div class="container">
             <div class="section-header">
-                <span class="section-eyebrow">Our Approach</span>
+                <span class="script-label">Our Approach</span>
                 <h2 class="section-title">What We Do</h2>
                 <p class="section-subtitle">Creating lasting change through education, research, and connection</p>
             </div>
 
             <div class="grid-3">
                 <!-- Feature 1 -->
-                <div class="feature-card animate-on-scroll">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                <div class="feature-card feature-card-image animate-on-scroll">
+                    <div class="feature-card-img">
+                        <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?w=400&h=250&fit=crop" alt="Social learning programs">
                     </div>
                     <h3>Social Learning Programs</h3>
                     <p>Bespoke 8-12 week programs that create community change leaders through systems thinking, nonviolent communication, and sustainability science.</p>
@@ -42,9 +41,9 @@ get_header();
                 </div>
 
                 <!-- Feature 2 -->
-                <div class="feature-card animate-on-scroll">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                <div class="feature-card feature-card-image animate-on-scroll">
+                    <div class="feature-card-img">
+                        <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=400&h=250&fit=crop" alt="Community matchmaking">
                     </div>
                     <h3>Community Matchmaking</h3>
                     <p>Connecting community organisations seeking learning programs with donors seeking meaningful projects to fund.</p>
@@ -52,9 +51,9 @@ get_header();
                 </div>
 
                 <!-- Feature 3 -->
-                <div class="feature-card animate-on-scroll">
-                    <div class="feature-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                <div class="feature-card feature-card-image animate-on-scroll">
+                    <div class="feature-card-img">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=400&h=250&fit=crop" alt="Research support">
                     </div>
                     <h3>Research Support</h3>
                     <p>Bridging the gap between communities and researchers to generate evidence-based solutions for environmental challenges.</p>
@@ -64,11 +63,12 @@ get_header();
         </div>
     </section>
 
-    <!-- The Problem Section -->
+    <!-- The Challenge Section -->
     <section class="section">
         <div class="container">
             <div class="two-col">
                 <div class="two-col-content animate-on-scroll">
+                    <span class="script-label">The Challenge</span>
                     <h2>The Challenge We Face</h2>
                     <p>The world is facing multiple environmental crises - climate change, biodiversity loss, land degradation - as well as social challenges like poverty, inequality, and lack of political voice. These problems are "wicked" because they are complex and interconnected.</p>
                     <p>Living alongside wildlife presents particular challenges. When free-roaming wildlife damage crops, prey on livestock, or threaten human safety, conflicts arise - not just between people and wildlife, but between people about how to manage these situations.</p>
@@ -81,11 +81,19 @@ get_header();
         </div>
     </section>
 
+    <!-- Empathy Banner Section -->
+    <section class="empathy-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
+        <div class="empathy-banner-content">
+            <h2>Empathy creates awareness</h2>
+            <span class="script-label script-label-light">Co-existence is possible.</span>
+        </div>
+    </section>
+
     <!-- Testimonials Section -->
     <section class="section section-light">
         <div class="container">
             <div class="section-header">
-                <span class="section-eyebrow">Testimonials</span>
+                <span class="script-label">Testimonials</span>
                 <h2 class="section-title">What Participants Say</h2>
                 <p class="section-subtitle">Voices from our programs</p>
             </div>
@@ -93,10 +101,15 @@ get_header();
             <div class="testimonial-slider" id="testimonial-slider">
                 <div class="testimonial-slider-track">
                     <div class="testimonial-slide active">
-                        <div class="testimonial">
+                        <div class="testimonial testimonial-enhanced">
+                            <div class="testimonial-quote-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
+                            </div>
                             <p class="testimonial-text">"The program changed how I see wildlife. I now understand that we share this land and can find ways to live together peacefully."</p>
                             <div class="testimonial-author">
-                                <div class="testimonial-avatar"></div>
+                                <div class="testimonial-avatar">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop&crop=face" alt="Program Participant">
+                                </div>
                                 <div>
                                     <div class="testimonial-name">Program Participant</div>
                                     <div class="testimonial-role">Namibia 2022</div>
@@ -106,10 +119,15 @@ get_header();
                     </div>
 
                     <div class="testimonial-slide">
-                        <div class="testimonial">
+                        <div class="testimonial testimonial-enhanced">
+                            <div class="testimonial-quote-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
+                            </div>
                             <p class="testimonial-text">"I learned to communicate without blame. This has helped not just with wildlife issues but with my family and community."</p>
                             <div class="testimonial-author">
-                                <div class="testimonial-avatar"></div>
+                                <div class="testimonial-avatar">
+                                    <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=120&h=120&fit=crop&crop=face" alt="Community Leader">
+                                </div>
                                 <div>
                                     <div class="testimonial-name">Community Leader</div>
                                     <div class="testimonial-role">Namibia 2023</div>
@@ -119,10 +137,15 @@ get_header();
                     </div>
 
                     <div class="testimonial-slide">
-                        <div class="testimonial">
+                        <div class="testimonial testimonial-enhanced">
+                            <div class="testimonial-quote-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.15"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
+                            </div>
                             <p class="testimonial-text">"The systems thinking approach opened my eyes. I now see how everything is connected and how small changes can make big differences."</p>
                             <div class="testimonial-author">
-                                <div class="testimonial-avatar"></div>
+                                <div class="testimonial-avatar">
+                                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=120&h=120&fit=crop&crop=face" alt="Farmer">
+                                </div>
                                 <div>
                                     <div class="testimonial-name">Farmer</div>
                                     <div class="testimonial-role">South Africa 2025</div>
@@ -153,7 +176,7 @@ get_header();
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <span class="section-eyebrow">Get Started</span>
+                <span class="script-label">Get Started</span>
                 <h2 class="section-title">How It Works</h2>
                 <p class="section-subtitle">Simple steps to create lasting change</p>
             </div>
@@ -214,7 +237,7 @@ get_header();
                             </div>
                         </div>
                     </div>
-                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary mt-4">Fund a Community</a>
+                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-accent mt-4">Fund a Community</a>
                 </div>
             </div>
         </div>
@@ -224,7 +247,7 @@ get_header();
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <span class="section-eyebrow">Featured Work</span>
+                <span class="script-label">Featured Work</span>
                 <h2 class="section-title">Our Projects</h2>
                 <p class="section-subtitle">Communities we've worked with</p>
             </div>
@@ -285,22 +308,10 @@ get_header();
         </div>
     </section>
 
-    <!-- Newsletter Section -->
-    <section class="newsletter">
-        <div class="container">
-            <h2>Stay Connected</h2>
-            <p>Hear updates on our work, individual stories, new programs and their impacts</p>
-            <form class="newsletter-form" action="#" method="post">
-                <input type="email" name="email" placeholder="Enter your email" required>
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
-    </section>
-
     <!-- CTA Section -->
-    <section class="section">
+    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
         <div class="container">
-            <div class="cta-box">
+            <div class="cta-banner-content">
                 <h2>Ready to Make a Difference?</h2>
                 <p>Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
                 <div class="btn-group">
