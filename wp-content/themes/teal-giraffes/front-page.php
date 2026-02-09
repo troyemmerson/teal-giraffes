@@ -21,7 +21,7 @@ get_header();
     </section>
 
     <!-- What We Do Section -->
-    <section class="section section-light">
+    <section class="section">
         <div class="container">
             <div class="section-header">
                 <span class="script-label">Our Approach</span>
@@ -73,14 +73,6 @@ get_header();
                 <p>Living alongside wildlife presents particular challenges. When free-roaming wildlife damage crops, prey on livestock, or threaten human safety, conflicts arise - not just between people and wildlife, but between people about how to manage these situations.</p>
                 <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-white mt-3">Learn About Our Approach</a>
             </div>
-        </div>
-    </section>
-
-    <!-- Empathy Banner Section -->
-    <section class="empathy-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
-        <div class="empathy-banner-content">
-            <h2>Empathy creates awareness</h2>
-            <span class="script-label script-label-light">Co-existence is possible.</span>
         </div>
     </section>
 
@@ -235,6 +227,14 @@ get_header();
                     <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-accent mt-4">Fund a Community</a>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Empathy Banner Section -->
+    <section class="empathy-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
+        <div class="empathy-banner-content">
+            <h2>Empathy creates awareness</h2>
+            <span class="script-label script-label-light">Co-existence is possible.</span>
         </div>
     </section>
 
