@@ -63,20 +63,15 @@ get_header();
         </div>
     </section>
 
-    <!-- The Challenge Section -->
-    <section class="section">
+    <!-- The Challenge Section - Full Background Image Style -->
+    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1920&q=80');">
         <div class="container">
-            <div class="two-col">
-                <div class="two-col-content animate-on-scroll">
-                    <span class="script-label">The Challenge</span>
-                    <h2>The Challenge We Face</h2>
-                    <p>The world is facing multiple environmental crises - climate change, biodiversity loss, land degradation - as well as social challenges like poverty, inequality, and lack of political voice. These problems are "wicked" because they are complex and interconnected.</p>
-                    <p>Living alongside wildlife presents particular challenges. When free-roaming wildlife damage crops, prey on livestock, or threaten human safety, conflicts arise - not just between people and wildlife, but between people about how to manage these situations.</p>
-                    <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-primary mt-3">Learn About Our Approach</a>
-                </div>
-                <div class="two-col-image animate-on-scroll">
-                    <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&h=400&fit=crop" alt="Wildlife and community coexistence" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-lg);">
-                </div>
+            <div class="challenge-content animate-on-scroll">
+                <span class="script-label script-label-light">The Challenge</span>
+                <h2>The Challenge We Face</h2>
+                <p>The world is facing multiple environmental crises - climate change, biodiversity loss, land degradation - as well as social challenges like poverty, inequality, and lack of political voice. These problems are "wicked" because they are complex and interconnected.</p>
+                <p>Living alongside wildlife presents particular challenges. When free-roaming wildlife damage crops, prey on livestock, or threaten human safety, conflicts arise - not just between people and wildlife, but between people about how to manage these situations.</p>
+                <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-white mt-3">Learn About Our Approach</a>
             </div>
         </div>
     </section>
