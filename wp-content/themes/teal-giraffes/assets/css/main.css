@@ -564,7 +564,7 @@ p {
 }
 
 .section-light {
-    background-color: var(--color-gray-50);
+    background-color: #1e98920a;
 }
 
 .section-warm {
@@ -1807,7 +1807,7 @@ textarea.form-control {
    ======================================== */
 .cta-banner {
     position: relative;
-    padding: 6rem 0;
+    padding: 8rem 0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
