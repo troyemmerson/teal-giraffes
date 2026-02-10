@@ -10,7 +10,7 @@ get_header();
 
 <main id="main" class="site-main">
     <!-- Hero Section -->
-    <section class="hero" style="min-height: 40vh;">
+    <section class="hero hero-image" style="min-height: 50vh; background-image: url('https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1920&q=80');">
         <div class="hero-content">
             <h1 class="hero-title">Our Projects</h1>
             <p class="hero-subtitle">Communities we've partnered with to create lasting change</p>
@@ -231,13 +231,12 @@ get_header();
     </section>
 
     <!-- CTA -->
-    <section class="section">
+    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
         <div class="container">
-            <div class="cta-box" style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);">
-                <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
-                <h2 style="color: white; margin-bottom: 1rem; position: relative;">Want to Support Our Work?</h2>
-                <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Your funding helps communities transform their relationships with wildlife and build sustainable futures.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
+            <div class="cta-banner-content">
+                <h2>Want to Support Our Work?</h2>
+                <p>Your funding helps communities transform their relationships with wildlife and build sustainable futures.</p>
+                <div class="btn-group">
                     <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary btn-lg">Fund a Community</a>
                     <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary btn-lg">Contact Us</a>
                 </div>

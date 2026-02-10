@@ -10,7 +10,7 @@ get_header();
 
 <main id="main" class="site-main">
     <!-- Hero Section -->
-    <section class="hero" style="min-height: 50vh;">
+    <section class="hero hero-image" style="min-height: 50vh; background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920&q=80');">
         <div class="hero-content">
             <h1 class="hero-title">Fund a Community in Need</h1>
             <p class="hero-subtitle">Your support transforms communities and creates lasting change for people and wildlife</p>
@@ -80,7 +80,7 @@ get_header();
 
                 <!-- Option 3: Fund Research -->
                 <div class="feature-card animate-on-scroll" style="text-align: left;">
-                    <div class="feature-icon" style="margin: 0 0 1.5rem 0; background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary-light) 100%);">
+                    <div class="feature-icon" style="margin: 0 0 1.5rem 0; background: var(--color-secondary);">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
                     </div>
                     <h3>Fund a Research Project</h3>
@@ -106,7 +106,7 @@ get_header();
     </section>
 
     <!-- Impact Section -->
-    <section class="section section-primary">
+    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=1920&q=80');">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title" style="color: white;">Your Impact</h2>
@@ -185,16 +185,15 @@ get_header();
     </section>
 
     <!-- Other Ways to Help -->
-    <section class="section">
+    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
         <div class="container">
-            <div class="cta-box" style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);">
-                <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
-                <h2 style="color: white; margin-bottom: 1rem; position: relative;">Other Ways to Help</h2>
-                <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Can't donate right now? There are other ways you can support our mission.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
+            <div class="cta-banner-content">
+                <h2>Other Ways to Help</h2>
+                <p>Can't donate right now? There are other ways you can support our mission.</p>
+                <div class="btn-group">
                     <a href="#" class="btn btn-secondary">Share Our Work</a>
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary" style="border-color: white; color: white;">Volunteer</a>
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary" style="border-color: white; color: white;">Corporate Partnership</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary">Volunteer</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary">Corporate Partnership</a>
                 </div>
             </div>
         </div>

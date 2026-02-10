@@ -10,7 +10,7 @@ get_header();
 
 <main id="main" class="site-main">
     <!-- Hero Section -->
-    <section class="hero" style="min-height: 40vh;">
+    <section class="hero hero-image" style="min-height: 50vh; background-image: url('https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=1920&q=80');">
         <div class="hero-content">
             <h1 class="hero-title">Our Solution</h1>
             <p class="hero-subtitle">Bespoke learning programs that transform human-wildlife conflict into coexistence</p>
@@ -54,11 +54,11 @@ get_header();
     </section>
 
     <!-- Coexistence Definition Section -->
-    <section class="section section-primary">
+    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1920&q=80');">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" style="max-width: 100%;">
                 <h2 class="section-title" style="color: white;">Our Vision of Coexistence</h2>
-                <p class="section-subtitle">We aim to transform human-wildlife conflict into human-wildlife coexistence</p>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">We aim to transform human-wildlife conflict into human-wildlife coexistence</p>
             </div>
 
             <div class="grid-3" style="gap: 2rem;">
@@ -260,11 +260,11 @@ get_header();
     </section>
 
     <!-- Evidence Based Section -->
-    <section class="section section-primary">
+    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=80');">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" style="max-width: 100%;">
                 <h2 class="section-title" style="color: white;">Evidence-Based Content</h2>
-                <p class="section-subtitle">Our programs are grounded in rigorous scientific research</p>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Our programs are grounded in rigorous scientific research</p>
             </div>
 
             <div class="two-col" style="color: white; gap: 3rem;">
@@ -300,13 +300,12 @@ get_header();
     </section>
 
     <!-- CTA Section -->
-    <section class="section">
+    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
         <div class="container">
-            <div class="cta-box" style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);">
-                <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
-                <h2 style="color: white; margin-bottom: 1rem; position: relative;">Ready to Transform Your Community?</h2>
-                <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
+            <div class="cta-banner-content">
+                <h2>Ready to Transform Your Community?</h2>
+                <p>Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
+                <div class="btn-group">
                     <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-primary btn-lg">Contact Us</a>
                     <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-secondary btn-lg">Fund a Community</a>
                 </div>

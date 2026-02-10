@@ -89,9 +89,9 @@ get_header();
     </section>
 
     <!-- CTA Section -->
-    <section class="section">
+    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
         <div class="container">
-            <div class="cta-box">
+            <div class="cta-banner-content">
                 <h2>There Is a Better Way</h2>
                 <p>Teal Giraffes bridges this gap through social learning programs that empower communities to create their own solutions.</p>
                 <div class="btn-group">

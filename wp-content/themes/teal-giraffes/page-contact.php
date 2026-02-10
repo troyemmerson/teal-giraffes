@@ -10,7 +10,7 @@ get_header();
 
 <main id="main" class="site-main">
     <!-- Hero Section -->
-    <section class="hero" style="min-height: 40vh;">
+    <section class="hero hero-image" style="min-height: 50vh; background-image: url('https://images.unsplash.com/photo-1577896851231-70ef18881754?w=1920&q=80');">
         <div class="hero-content">
             <h1 class="hero-title">Contact Us</h1>
             <p class="hero-subtitle">Get in touch with our team - we'd love to hear from you</p>
@@ -28,7 +28,7 @@ get_header();
 
                     <div style="margin-top: 2rem;">
                         <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; padding: 1.25rem; background: var(--color-gray-50); border-radius: var(--radius-lg);">
-                            <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <div style="width: 50px; height: 50px; background: var(--color-primary); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
                             </div>
                             <div>
@@ -38,7 +38,7 @@ get_header();
                         </div>
 
                         <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; padding: 1.25rem; background: var(--color-gray-50); border-radius: var(--radius-lg);">
-                            <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <div style="width: 50px; height: 50px; background: var(--color-primary); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
                             </div>
                             <div>
@@ -48,7 +48,7 @@ get_header();
                         </div>
 
                         <div style="display: flex; gap: 1rem; padding: 1.25rem; background: var(--color-gray-50); border-radius: var(--radius-lg);">
-                            <div style="width: 50px; height: 50px; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <div style="width: 50px; height: 50px; background: var(--color-primary); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                             </div>
                             <div>
@@ -164,13 +164,12 @@ get_header();
     </section>
 
     <!-- CTA Section -->
-    <section class="section">
+    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
         <div class="container">
-            <div class="cta-box" style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);">
-                <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
-                <h2 style="color: white; margin-bottom: 1rem; position: relative;">Ready to Get Started?</h2>
-                <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
+            <div class="cta-banner-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
+                <div class="btn-group">
                     <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-primary btn-lg">Learn More</a>
                     <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-secondary btn-lg">Fund a Community</a>
                 </div>
