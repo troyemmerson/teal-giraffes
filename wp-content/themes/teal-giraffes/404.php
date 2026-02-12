@@ -11,7 +11,7 @@ get_header();
 <main id="main" class="site-main">
     <section class="section" style="min-height: 60vh; display: flex; align-items: center;">
         <div class="container text-center">
-            <div style="font-size: 8rem; font-weight: 800; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1; margin-bottom: 1rem;">404</div>
+            <div style="font-size: 8rem; font-weight: 800; color: var(--color-primary); line-height: 1; margin-bottom: 1rem;">404</div>
             <h1 style="margin-bottom: 1rem;">Page Not Found</h1>
             <p style="max-width: 500px; margin: 0 auto 2rem;">The page you're looking for doesn't exist or has been moved. Let's get you back on track.</p>
             <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">

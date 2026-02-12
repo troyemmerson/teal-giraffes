@@ -10,7 +10,7 @@ get_header();
 
 <main id="main" class="site-main">
     <!-- Hero Section -->
-    <section class="hero" style="min-height: 40vh;">
+    <section class="hero hero-image" style="min-height: 50vh; background-image: url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1920&q=80');">
         <div class="hero-content">
             <h1 class="hero-title">Who We Are</h1>
             <p class="hero-subtitle">Teal Giraffes - Transforming human-wildlife conflict into coexistence through learning and compassion</p>
@@ -63,7 +63,7 @@ get_header();
             <div class="grid-2" style="gap: 3rem;">
                 <!-- Giraffe -->
                 <div class="animate-on-scroll" style="text-align: center; padding: 2rem;">
-                    <div style="width: 120px; height: 120px; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center;">
+                    <div style="width: 120px; height: 120px; background: var(--color-primary); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center;">
                         <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
                     </div>
                     <h3 style="color: var(--color-primary); font-size: 1.75rem; margin-bottom: 1rem;">Giraffe</h3>
@@ -76,7 +76,7 @@ get_header();
 
                 <!-- Teal -->
                 <div class="animate-on-scroll" style="text-align: center; padding: 2rem;">
-                    <div style="width: 120px; height: 120px; background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center;">
+                    <div style="width: 120px; height: 120px; background: var(--color-primary); border-radius: 50%; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center;">
                         <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
                     </div>
                     <h3 style="color: var(--color-primary); font-size: 1.75rem; margin-bottom: 1rem;">Teal</h3>
@@ -91,18 +91,17 @@ get_header();
     </section>
 
     <!-- Founder Section -->
-    <section class="section section-primary">
+    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=1920&q=80');">
         <div class="container">
             <div class="two-col" style="gap: 4rem; align-items: center;">
                 <div class="two-col-image animate-on-scroll">
-                    <div class="placeholder-image" style="aspect-ratio: 1; border-radius: var(--radius-lg); border: 4px solid rgba(255,255,255,0.3);">Ruth Kansky Photo</div>
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop" alt="Dr. Ruth Kansky - Founder" style="aspect-ratio: 1; border-radius: var(--radius-lg); border: 4px solid rgba(255,255,255,0.3); width: 100%; object-fit: cover;">
                 </div>
                 <div class="two-col-content animate-on-scroll" style="color: white;">
                     <h2 style="color: white; margin-bottom: 0.5rem;">Meet the Founder</h2>
                     <h3 style="color: var(--color-secondary); margin-bottom: 1.5rem;">Dr. Ruth Kansky</h3>
                     <p style="color: rgba(255,255,255,0.9);">Ruth Kansky is the director and founder of Teal Giraffes. With extensive research experience in human-wildlife coexistence across multiple continents, she combines scientific rigor with practical community-based approaches.</p>
                     <p style="color: rgba(255,255,255,0.9);">Her work has been published in leading conservation journals and has directly informed the development of our innovative social learning programs.</p>
-                    <a href="#publications" class="btn btn-white" style="margin-top: 1rem;">View Publications</a>
                 </div>
             </div>
         </div>
@@ -177,15 +176,14 @@ get_header();
     </section>
 
     <!-- CTA Section -->
-    <section class="section">
+    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
         <div class="container">
-            <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: var(--radius-xl); padding: 4rem 2rem; text-align: center; color: white; position: relative; overflow: hidden;">
-                <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
-                <h2 style="color: white; margin-bottom: 1rem; position: relative;">Join Our Mission</h2>
-                <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Whether you're a community seeking support, a researcher looking to collaborate, or a donor wanting to make an impact - we'd love to hear from you.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
-                    <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-white btn-lg">Apply for a Program</a>
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Get in Touch</a>
+            <div class="cta-banner-content">
+                <h2>Join Our Mission</h2>
+                <p>Whether you're a community seeking support, a researcher looking to collaborate, or a donor wanting to make an impact - we'd love to hear from you.</p>
+                <div class="btn-group">
+                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary btn-lg">Fund a Community</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary btn-lg">Get in Touch</a>
                 </div>
             </div>
         </div>

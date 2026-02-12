@@ -10,13 +10,13 @@ get_header();
 
 <main id="main" class="site-main">
     <!-- Hero Section -->
-    <section class="hero" style="min-height: 50vh;">
+    <section class="hero hero-image" style="min-height: 50vh; background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1920&q=80');">
         <div class="hero-content">
             <h1 class="hero-title">Fund a Community in Need</h1>
             <p class="hero-subtitle">Your support transforms communities and creates lasting change for people and wildlife</p>
             <div class="hero-buttons">
-                <a href="#projects-seeking-funding" class="btn btn-white btn-lg">View Projects</a>
-                <a href="#donate-form" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Donate Now</a>
+                <a href="#projects-seeking-funding" class="btn btn-primary btn-lg">View Projects</a>
+                <a href="#donate-form" class="btn btn-secondary btn-lg">Donate Now</a>
             </div>
         </div>
     </section>
@@ -51,7 +51,7 @@ get_header();
                             <span>Recognition in reports</span>
                         </li>
                     </ul>
-                    <a href="#projects-seeking-funding" class="btn btn-success">View Projects</a>
+                    <a href="#projects-seeking-funding" class="btn btn-primary">View Projects</a>
                 </div>
 
                 <!-- Option 2: Program + Evaluation -->
@@ -80,7 +80,7 @@ get_header();
 
                 <!-- Option 3: Fund Research -->
                 <div class="feature-card animate-on-scroll" style="text-align: left;">
-                    <div class="feature-icon" style="margin: 0 0 1.5rem 0; background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-primary-light) 100%);">
+                    <div class="feature-icon" style="margin: 0 0 1.5rem 0; background: var(--color-secondary);">
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
                     </div>
                     <h3>Fund a Research Project</h3>
@@ -106,7 +106,7 @@ get_header();
     </section>
 
     <!-- Impact Section -->
-    <section class="section section-primary">
+    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=1920&q=80');">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title" style="color: white;">Your Impact</h2>
@@ -146,7 +146,7 @@ get_header();
                 <div class="grid-2" style="gap: 2rem;">
                     <div class="card animate-on-scroll" style="overflow: hidden;">
                         <div class="card-image" style="height: 200px;">
-                            <div class="placeholder-image" style="height: 100%;">South Africa</div>
+                            <img src="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?w=400&h=200&fit=crop" alt="Human-baboon coexistence in South Africa" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="card-content">
                             <span style="display: inline-block; background: var(--color-warning); color: var(--color-dark); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600; margin-bottom: 0.75rem;">Seeking Funding</span>
@@ -161,19 +161,19 @@ get_header();
                                     <div class="progress-fill" style="width: 25%;"></div>
                                 </div>
                             </div>
-                            <a href="#donate-form" class="btn btn-success btn-sm">Donate to This Project</a>
+                            <a href="#donate-form" class="btn btn-primary btn-sm">Donate to This Project</a>
                         </div>
                     </div>
 
                     <div class="card animate-on-scroll" style="overflow: hidden;">
                         <div class="card-image" style="height: 200px;">
-                            <div class="placeholder-image" style="height: 100%;">Your Community</div>
+                            <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=400&h=200&fit=crop" alt="Community gathering" style="width: 100%; height: 100%; object-fit: cover;">
                         </div>
                         <div class="card-content">
-                            <span style="display: inline-block; background: var(--color-primary); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600; margin-bottom: 0.75rem;">Apply Now</span>
-                            <h3 class="card-title">Your Community Could Be Next</h3>
-                            <p class="card-text">We're always looking for new communities to partner with. Apply now to be considered for funding.</p>
-                            <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-primary btn-sm" style="margin-top: 0.5rem;">Apply for a Program</a>
+                            <span style="display: inline-block; background: var(--color-primary); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600; margin-bottom: 0.75rem;">Get Involved</span>
+                            <h3 class="card-title">Want to Learn More?</h3>
+                            <p class="card-text">We're always looking for new communities to partner with. Contact us to learn about our programs.</p>
+                            <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-primary btn-sm" style="margin-top: 0.5rem;">Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -185,16 +185,15 @@ get_header();
     </section>
 
     <!-- Other Ways to Help -->
-    <section class="section">
+    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
         <div class="container">
-            <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: var(--radius-xl); padding: 4rem 2rem; text-align: center; color: white; position: relative; overflow: hidden;">
-                <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
-                <h2 style="color: white; margin-bottom: 1rem; position: relative;">Other Ways to Help</h2>
-                <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Can't donate right now? There are other ways you can support our mission.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
-                    <a href="#" class="btn btn-white">Share Our Work</a>
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary" style="border-color: white; color: white;">Volunteer</a>
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary" style="border-color: white; color: white;">Corporate Partnership</a>
+            <div class="cta-banner-content">
+                <h2>Other Ways to Help</h2>
+                <p>Can't donate right now? There are other ways you can support our mission.</p>
+                <div class="btn-group">
+                    <a href="#" class="btn btn-secondary">Share Our Work</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary">Volunteer</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary">Corporate Partnership</a>
                 </div>
             </div>
         </div>

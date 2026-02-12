@@ -10,7 +10,7 @@ get_header();
 
 <main id="main" class="site-main">
     <!-- Hero Section -->
-    <section class="hero" style="min-height: 40vh;">
+    <section class="hero hero-image" style="min-height: 50vh; background-image: url('https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1920&q=80');">
         <div class="hero-content">
             <h1 class="hero-title">Our Projects</h1>
             <p class="hero-subtitle">Communities we've partnered with to create lasting change</p>
@@ -48,7 +48,7 @@ get_header();
                                 </div>
                             <?php else : ?>
                                 <div class="card-image" style="position: relative;">
-                                    <div class="placeholder-image" style="height: 200px;"><?php the_title(); ?></div>
+                                    <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=200&fit=crop" alt="<?php the_title(); ?>" style="width: 100%; height: 200px; object-fit: cover;">
                                     <span style="position: absolute; top: 1rem; left: 1rem; background: var(--color-warning); color: var(--color-dark); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600;">Seeking Funding</span>
                                 </div>
                             <?php endif; ?>
@@ -68,7 +68,7 @@ get_header();
                                         </div>
                                     </div>
                                 <?php endif; ?>
-                                <a href="<?php the_permalink(); ?>" class="btn btn-success btn-sm" style="width: 100%;">Donate to This Project</a>
+                                <a href="<?php the_permalink(); ?>" class="btn btn-primary btn-sm" style="width: 100%;">Donate to This Project</a>
                             </div>
                         </div>
                     <?php endwhile; wp_reset_postdata(); ?>
@@ -84,7 +84,7 @@ get_header();
                 <!-- Project 1: Namibia 2019 -->
                 <div class="card animate-on-scroll" style="overflow: hidden;">
                     <div class="card-image" style="position: relative;">
-                        <div class="placeholder-image" style="height: 200px;">Namibia 2019</div>
+                        <img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=400&h=200&fit=crop" alt="Namibia wildlife project 2019" style="width: 100%; height: 200px; object-fit: cover;">
                         <span style="position: absolute; top: 1rem; left: 1rem; background: var(--color-success); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600;">Completed</span>
                     </div>
                     <div class="card-content">
@@ -101,7 +101,7 @@ get_header();
                 <!-- Project 2: Namibia 2022/2023 -->
                 <div class="card animate-on-scroll" style="overflow: hidden;">
                     <div class="card-image" style="position: relative;">
-                        <div class="placeholder-image" style="height: 200px;">Namibia 2022</div>
+                        <img src="https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=400&h=200&fit=crop" alt="Namibia leadership program 2022" style="width: 100%; height: 200px; object-fit: cover;">
                         <span style="position: absolute; top: 1rem; left: 1rem; background: var(--color-success); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600;">Completed</span>
                     </div>
                     <div class="card-content">
@@ -118,7 +118,7 @@ get_header();
                 <!-- Project 3: Namibia 2025 -->
                 <div class="card animate-on-scroll" style="overflow: hidden;">
                     <div class="card-image" style="position: relative;">
-                        <div class="placeholder-image" style="height: 200px;">Namibia 2025</div>
+                        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=200&fit=crop" alt="Namibia sustainable agriculture 2025" style="width: 100%; height: 200px; object-fit: cover;">
                         <span style="position: absolute; top: 1rem; left: 1rem; background: var(--color-primary); color: white; padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600;">In Progress</span>
                     </div>
                     <div class="card-content">
@@ -143,7 +143,7 @@ get_header();
                 <!-- Project 4: South Africa 2025 -->
                 <div class="card animate-on-scroll" style="overflow: hidden;">
                     <div class="card-image" style="position: relative;">
-                        <div class="placeholder-image" style="height: 200px;">South Africa 2025</div>
+                        <img src="https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?w=400&h=200&fit=crop" alt="South Africa baboon coexistence 2025" style="width: 100%; height: 200px; object-fit: cover;">
                         <span style="position: absolute; top: 1rem; left: 1rem; background: var(--color-warning); color: var(--color-dark); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600;">Seeking Funding</span>
                     </div>
                     <div class="card-content">
@@ -159,21 +159,21 @@ get_header();
                                 <div class="progress-fill" style="width: 25%;"></div>
                             </div>
                         </div>
-                        <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-success btn-sm" style="width: 100%;">Fund This Project</a>
+                        <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary btn-sm" style="width: 100%;">Fund This Project</a>
                     </div>
                 </div>
 
                 <!-- Placeholder -->
                 <div class="card animate-on-scroll" style="overflow: hidden;">
                     <div class="card-image" style="position: relative;">
-                        <div class="placeholder-image" style="height: 200px;">Your Project</div>
-                        <span style="position: absolute; top: 1rem; left: 1rem; background: var(--color-secondary); color: var(--color-dark); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600;">Apply Now</span>
+                        <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=400&h=200&fit=crop" alt="Join our community projects" style="width: 100%; height: 200px; object-fit: cover;">
+                        <span style="position: absolute; top: 1rem; left: 1rem; background: var(--color-secondary); color: var(--color-dark); padding: 0.25rem 0.75rem; border-radius: var(--radius-full); font-size: 0.75rem; font-weight: 600;">Get Involved</span>
                     </div>
                     <div class="card-content">
                         <span class="text-muted" style="font-size: 0.875rem;">Your Location</span>
-                        <h3 class="card-title">Your Community Could Be Next</h3>
-                        <p class="card-text">We're always looking for new communities to partner with. Apply now to be considered.</p>
-                        <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-primary btn-sm" style="width: 100%;">Apply for a Program</a>
+                        <h3 class="card-title">Want to Learn More?</h3>
+                        <p class="card-text">We're always looking for new communities to partner with. Contact us to learn more.</p>
+                        <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-primary btn-sm" style="width: 100%;">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -231,15 +231,14 @@ get_header();
     </section>
 
     <!-- CTA -->
-    <section class="section">
+    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
         <div class="container">
-            <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: var(--radius-xl); padding: 4rem 2rem; text-align: center; color: white; position: relative; overflow: hidden;">
-                <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
-                <h2 style="color: white; margin-bottom: 1rem; position: relative;">Want to Support Our Work?</h2>
-                <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Your funding helps communities transform their relationships with wildlife and build sustainable futures.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
-                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-white btn-lg">Fund a Community</a>
-                    <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Apply for a Program</a>
+            <div class="cta-banner-content">
+                <h2>Want to Support Our Work?</h2>
+                <p>Your funding helps communities transform their relationships with wildlife and build sustainable futures.</p>
+                <div class="btn-group">
+                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-primary btn-lg">Fund a Community</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary btn-lg">Contact Us</a>
                 </div>
             </div>
         </div>

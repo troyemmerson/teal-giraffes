@@ -10,7 +10,7 @@ get_header();
 
 <main id="main" class="site-main">
     <!-- Hero Section -->
-    <section class="hero" style="min-height: 40vh;">
+    <section class="hero hero-image" style="min-height: 50vh; background-image: url('https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=1920&q=80');">
         <div class="hero-content">
             <h1 class="hero-title">Our Solution</h1>
             <p class="hero-subtitle">Bespoke learning programs that transform human-wildlife conflict into coexistence</p>
@@ -54,11 +54,11 @@ get_header();
     </section>
 
     <!-- Coexistence Definition Section -->
-    <section class="section section-primary">
+    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1920&q=80');">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" style="max-width: 100%;">
                 <h2 class="section-title" style="color: white;">Our Vision of Coexistence</h2>
-                <p class="section-subtitle">We aim to transform human-wildlife conflict into human-wildlife coexistence</p>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">We aim to transform human-wildlife conflict into human-wildlife coexistence</p>
             </div>
 
             <div class="grid-3" style="gap: 2rem;">
@@ -209,14 +209,11 @@ get_header();
                 <div class="two-col-content animate-on-scroll">
                     <p>Our programs target communities who share landscapes with wildlife and we recruit <strong>volunteers who would like to be change leaders</strong> in their communities.</p>
                     <p>These change leaders promote societal transformation towards sustainable human-wildlife social-ecological systems where people and wildlife share the landscape in mutual coexistence.</p>
-                    <p>Our programs also promote environmentally sustainable human livelihood activities.</p>
                     <h4 style="margin: 0 0 0.75rem 0; color: var(--color-primary);">Why Grassroots Focus?</h4>
                     <p style="margin: 0;">While we often invite other stakeholders such as those already in leadership positions, these people are often not available for the 2-3 month program. Our approach focuses on individual grassroots farmers and community members to empower and up-skill them to become new leaders and lead the change.</p>
                 </div>
                 <div class="two-col-image animate-on-scroll">
-                    <div class="placeholder-image">
-                        <span>Community Leaders Image</span>
-                    </div>
+                    <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=600&h=400&fit=crop" alt="Community leaders in discussion" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-lg);">
                 </div>
             </div>
         </div>
@@ -263,20 +260,20 @@ get_header();
     </section>
 
     <!-- Evidence Based Section -->
-    <section class="section section-primary">
+    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=80');">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" style="max-width: 100%;">
                 <h2 class="section-title" style="color: white;">Evidence-Based Content</h2>
-                <p class="section-subtitle">Our programs are grounded in rigorous scientific research</p>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Our programs are grounded in rigorous scientific research</p>
             </div>
 
             <div class="two-col" style="color: white; gap: 3rem;">
                 <div class="animate-on-scroll">
                     <p style="color: rgba(255,255,255,0.9);">Our research investigated factors that determine why some people are more tolerant than others towards living near different wildlife species. We measured:</p>
                     <ul style="list-style: none; padding: 0; color: rgba(255,255,255,0.9); margin: 1rem 0;">
-                        <li style="margin-bottom: 0.5rem;">&#8226; Willingness to tolerate some wildlife damage</li>
-                        <li style="margin-bottom: 0.5rem;">&#8226; Willingness to tolerate proximity of wildlife</li>
-                        <li style="margin-bottom: 0.5rem;">&#8226; Willingness to refrain from killing wildlife</li>
+                        <li>&#8226; Willingness to tolerate some wildlife damage</li>
+                        <li>&#8226; Willingness to tolerate proximity of wildlife</li>
+                        <li>&#8226; Willingness to refrain from killing wildlife</li>
                         <li>&#8226; Willingness to support wildlife population increases</li>
                     </ul>
                     <p style="color: rgba(255,255,255,0.9);">We tested these in <strong>9 countries</strong> with <strong>12 species</strong> in <strong>23 cases</strong>.</p>
@@ -287,11 +284,11 @@ get_header();
                         <p style="color: rgba(255,255,255,0.9); margin-bottom: 1rem;">The two most consistent factors driving tolerance were:</p>
                         <div style="display: flex; gap: 1rem; flex-direction: column;">
                             <div style="display: flex; gap: 0.75rem; align-items: flex-start;">
-                                <span style="width: 28px; height: 28px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--color-dark); font-weight: 700; flex-shrink: 0;">1</span>
+                                <span style="width: 28px; height: 28px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; flex-shrink: 0;">1</span>
                                 <span style="color: rgba(255,255,255,0.9);">The extent a person had <strong>empathy</strong> for the wildlife species</span>
                             </div>
                             <div style="display: flex; gap: 0.75rem; align-items: flex-start;">
-                                <span style="width: 28px; height: 28px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--color-dark); font-weight: 700; flex-shrink: 0;">2</span>
+                                <span style="width: 28px; height: 28px; background: var(--color-secondary); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; flex-shrink: 0;">2</span>
                                 <span style="color: rgba(255,255,255,0.9);">The extent a person perceived <strong>non-monetary benefits</strong> (cultural value, beauty, appreciation of existence)</span>
                             </div>
                         </div>
@@ -303,15 +300,14 @@ get_header();
     </section>
 
     <!-- CTA Section -->
-    <section class="section">
+    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
         <div class="container">
-            <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); border-radius: var(--radius-xl); padding: 4rem 2rem; text-align: center; color: white; position: relative; overflow: hidden;">
-                <div style="position: absolute; top: -50%; right: -20%; width: 60%; height: 200%; background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, transparent 70%); pointer-events: none;"></div>
-                <h2 style="color: white; margin-bottom: 1rem; position: relative;">Ready to Transform Your Community?</h2>
-                <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; position: relative;">Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; position: relative;">
-                    <a href="<?php echo esc_url( home_url( '/apply/' ) ); ?>" class="btn btn-white btn-lg">Apply for a Program</a>
-                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Fund a Community</a>
+            <div class="cta-banner-content">
+                <h2>Ready to Transform Your Community?</h2>
+                <p>Whether you're a community seeking support or a donor looking to fund meaningful change, we're here to help.</p>
+                <div class="btn-group">
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-primary btn-lg">Contact Us</a>
+                    <a href="<?php echo esc_url( home_url( '/donate/' ) ); ?>" class="btn btn-secondary btn-lg">Fund a Community</a>
                 </div>
             </div>
         </div>
