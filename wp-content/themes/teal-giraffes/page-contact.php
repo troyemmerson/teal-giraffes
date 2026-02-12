@@ -113,10 +113,10 @@ get_header();
     </section>
 
     <!-- FAQ Section -->
-    <section class="section section-light">
+    <section class="section section-green">
         <div class="container container-narrow">
             <div class="section-header">
-                <h2 class="section-title">Frequently Asked Questions</h2>
+                <h2 class="section-title" style="color: #ffffff;">Frequently Asked Questions</h2>
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 1rem;">

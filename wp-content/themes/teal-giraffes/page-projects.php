@@ -181,55 +181,6 @@ get_header();
         </div>
     </section>
 
-    <!-- Testimonials -->
-    <section class="section section-light">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">What Participants Say</h2>
-                <p class="section-subtitle">Voices from our programs</p>
-            </div>
-
-            <div class="grid-3">
-                <div class="testimonial animate-on-scroll">
-                    <p class="testimonial-text">"The program taught me to see wildlife differently. Instead of enemies destroying my crops, I now see them as neighbors we need to learn to live with."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar"></div>
-                        <div>
-                            <div class="testimonial-name">Community Farmer</div>
-                            <div class="testimonial-role">Namibia Program</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial animate-on-scroll">
-                    <p class="testimonial-text">"Learning nonviolent communication changed everything - not just how I deal with wildlife issues, but how I communicate with my family and community."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar"></div>
-                        <div>
-                            <div class="testimonial-name">Community Leader</div>
-                            <div class="testimonial-role">Governance Program</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial animate-on-scroll">
-                    <p class="testimonial-text">"The systems thinking approach opened my eyes. I now see how everything is connected and how small changes can make big differences."</p>
-                    <div class="testimonial-author">
-                        <div class="testimonial-avatar"></div>
-                        <div>
-                            <div class="testimonial-name">Program Graduate</div>
-                            <div class="testimonial-role">Namibia 2023</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-center mt-4">
-                <a href="<?php echo esc_url( home_url( '/impacts/' ) ); ?>" class="btn btn-secondary btn-lg">See All Impact Stories</a>
-            </div>
-        </div>
-    </section>
-
     <!-- CTA -->
     <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
         <div class="container">

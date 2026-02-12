@@ -33,7 +33,7 @@ get_header();
                 <!-- Option 1: Fund a Program -->
                 <div class="feature-card animate-on-scroll" style="text-align: left;">
                     <div class="feature-icon" style="margin: 0 0 1.5rem 0; background: var(--color-success);">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
                     </div>
                     <h3>Fund a Learning Program</h3>
                     <p>Support a complete 8-12 week social learning program for a community. Programs typically cost $10,000 - $25,000 depending on size and location.</p>
@@ -56,8 +56,8 @@ get_header();
 
                 <!-- Option 2: Program + Evaluation -->
                 <div class="feature-card animate-on-scroll" style="text-align: left;">
-                    <div class="feature-icon" style="margin: 0 0 1.5rem 0;">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <div class="feature-icon" style="margin: 0 0 1.5rem 0; background: var(--color-success);">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
                     </div>
                     <h3>Program + Evaluation</h3>
                     <p>Fund a program plus follow-up evaluation at 1 or 2 years. We've found that program impacts can increase over time as participants share their knowledge.</p>
@@ -80,8 +80,8 @@ get_header();
 
                 <!-- Option 3: Fund Research -->
                 <div class="feature-card animate-on-scroll" style="text-align: left;">
-                    <div class="feature-icon" style="margin: 0 0 1.5rem 0; background: var(--color-secondary);">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    <div class="feature-icon" style="margin: 0 0 1.5rem 0; background: var(--color-success);">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
                     </div>
                     <h3>Fund a Research Project</h3>
                     <p>Support research that helps communities better understand and manage their human-wildlife challenges with evidence-based solutions.</p>
@@ -99,14 +99,14 @@ get_header();
                             <span>Actionable recommendations</span>
                         </li>
                     </ul>
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary">Inquire About Research</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-primary">Inquire Now</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Impact Section -->
-    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=1920&q=80');">
+    <section class="section section-green" style="background-image: url('https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=1920&q=80');">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title" style="color: white;">Your Impact</h2>
@@ -183,21 +183,7 @@ get_header();
             </div>
         </div>
     </section>
-
-    <!-- Other Ways to Help -->
-    <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">
-        <div class="container">
-            <div class="cta-banner-content">
-                <h2>Other Ways to Help</h2>
-                <p>Can't donate right now? There are other ways you can support our mission.</p>
-                <div class="btn-group">
-                    <a href="#" class="btn btn-secondary">Share Our Work</a>
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary">Volunteer</a>
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary">Corporate Partnership</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 </main>
 
 <script>
