@@ -9,11 +9,11 @@ get_header();
 ?>
 
 <main id="main" class="site-main">
-    <!-- Page Hero -->
-    <section class="page-hero page-hero-image" style="background-image: url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1920&q=80');">
-        <div class="container">
-            <h1>The Problem</h1>
-            <p>Understanding the complex challenges at the intersection of people, wildlife, and the environment</p>
+    <!-- Hero Section -->
+    <section class="hero hero-image" style="min-height: 50vh; background-image: url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1920&q=80');">
+        <div class="hero-content">
+            <h1 class="hero-title">The Problem</h1>
+            <p class="hero-subtitle">Understanding the complex challenges at the intersection of people, wildlife, and the environment</p>
         </div>
     </section>
 
@@ -22,7 +22,7 @@ get_header();
         <div class="container">
             <div class="two-col">
                 <div class="two-col-content animate-on-scroll">
-                    <span class="section-eyebrow">The Challenge</span>
+                    <span class="script-label">The Challenge</span>
                     <h2>Wicked Problems Require New Thinking</h2>
                     <p>The world is facing multiple environmental crises - climate change, biodiversity loss, land degradation - as well as social challenges like poverty, inequality, and lack of political voice. These problems are "wicked" because they are complex and interconnected.</p>
                     <p>Living alongside wildlife presents particular challenges. When free-roaming wildlife damage crops, prey on livestock, or threaten human safety, conflicts arise - not just between people and wildlife, but between people about how to manage these situations.</p>
@@ -42,7 +42,7 @@ get_header();
                     <img src="https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=600&h=400&fit=crop" alt="Community and environmental challenges" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-lg);">
                 </div>
                 <div class="two-col-content animate-on-scroll">
-                    <span class="section-eyebrow">Why It Matters</span>
+                    <span class="script-label">Why It Matters</span>
                     <h2>Communities at the Frontline</h2>
                     <p>Rural communities in developing countries bear the greatest burden of human-wildlife conflict. They often lack the resources, knowledge, and political voice to address these challenges effectively.</p>
                     <p>Traditional top-down conservation approaches frequently fail because they don't account for the complex social dynamics and lived experiences of the people most affected.</p>
@@ -55,7 +55,7 @@ get_header();
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <span class="section-eyebrow">The Gap</span>
+                <span class="script-label">The Gap</span>
                 <h2 class="section-title">What's Missing</h2>
                 <p class="section-subtitle">Current approaches often overlook the human dimension of environmental challenges</p>
             </div>

@@ -37,7 +37,7 @@ get_header();
                     </div>
                     <h3>Social Learning Programs</h3>
                     <p>Bespoke 8-12 week programs that create community change leaders through systems thinking, nonviolent communication, and sustainability science.</p>
-                    <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-secondary">Learn More</a>
+                    <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="btn btn-primary">Learn More</a>
                 </div>
 
                 <!-- Feature 2 -->
@@ -47,7 +47,7 @@ get_header();
                     </div>
                     <h3>Community Matchmaking</h3>
                     <p>Connecting community organisations seeking learning programs with donors seeking meaningful projects to fund.</p>
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary">Get in Touch</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-primary">Get in Touch</a>
                 </div>
 
                 <!-- Feature 3 -->
@@ -57,14 +57,14 @@ get_header();
                     </div>
                     <h3>Research Support</h3>
                     <p>Bridging the gap between communities and researchers to generate evidence-based solutions for environmental challenges.</p>
-                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-secondary">Contact Us</a>
+                    <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="btn btn-primary">Contact Us</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- The Challenge Section - Full Background Image Style -->
-    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1920&q=80');">
+    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1535941339077-2dd1c7963098?w=1920&q=80');">
         <div class="container">
             <div class="challenge-content animate-on-scroll">
                 <span class="script-label script-label-light">The Challenge</span>
@@ -77,7 +77,7 @@ get_header();
     </section>
 
     <!-- Testimonials Section -->
-    <section class="section section-light">
+    <section class="section section-testimonials">
         <div class="container">
             <div class="section-header">
                 <span class="script-label">Testimonials</span>
