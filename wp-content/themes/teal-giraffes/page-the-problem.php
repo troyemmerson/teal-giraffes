@@ -39,7 +39,7 @@ get_header();
         <div class="container">
             <div class="two-col">
                 <div class="two-col-image animate-on-scroll">
-                    <img src="https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=600&h=400&fit=crop" alt="Community and environmental challenges" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-lg);">
+                    <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&h=400&fit=crop" alt="Community and environmental challenges" style="width: 100%; height: 100%; object-fit: cover; border-radius: var(--radius-lg);">
                 </div>
                 <div class="two-col-content animate-on-scroll">
                     <span class="script-label">Why It Matters</span>

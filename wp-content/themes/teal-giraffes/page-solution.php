@@ -62,7 +62,7 @@ get_header();
             </div>
 
             <div class="grid-3" style="gap: 2rem;">
-                <div class="animate-on-scroll" style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: var(--radius-lg); text-align: center;">
+                <div class="animate-on-scroll" style="background: rgba(255,255,255,0.25); padding: 2rem; border-radius: var(--radius-lg); text-align: center;">
                     <div style="width: 60px; height: 60px; background: rgba(255,255,255,0.2); border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                     </div>
@@ -70,7 +70,7 @@ get_header();
                     <p style="color: rgba(255,255,255,0.9); margin: 0;">Stakeholders collaborate in a respectful manner to manage human-wildlife interactions</p>
                 </div>
 
-                <div class="animate-on-scroll" style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: var(--radius-lg); text-align: center;">
+                <div class="animate-on-scroll" style="background: rgba(255,255,255,0.25); padding: 2rem; border-radius: var(--radius-lg); text-align: center;">
                     <div style="width: 60px; height: 60px; background: rgba(255,255,255,0.2); border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
                     </div>
@@ -78,7 +78,7 @@ get_header();
                     <p style="color: rgba(255,255,255,0.9); margin: 0;">Communities are motivated to implement strategies to reduce negative impacts from wildlife</p>
                 </div>
 
-                <div class="animate-on-scroll" style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: var(--radius-lg); text-align: center;">
+                <div class="animate-on-scroll" style="background: rgba(255,255,255,0.25); padding: 2rem; border-radius: var(--radius-lg); text-align: center;">
                     <div style="width: 60px; height: 60px; background: rgba(255,255,255,0.2); border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;">
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                     </div>
@@ -198,7 +198,7 @@ get_header();
     </section>
 
     <!-- Our Approach Section -->
-    <section class="section section-light">
+    <section class="section section-green section-approach">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Our Approach</h2>
@@ -209,7 +209,7 @@ get_header();
                 <div class="two-col-content animate-on-scroll">
                     <p>Our programs target communities who share landscapes with wildlife and we recruit <strong>volunteers who would like to be change leaders</strong> in their communities.</p>
                     <p>These change leaders promote societal transformation towards sustainable human-wildlife social-ecological systems where people and wildlife share the landscape in mutual coexistence.</p>
-                    <h4 style="margin: 0 0 0.75rem 0; color: var(--color-primary);">Why Grassroots Focus?</h4>
+                    <h4 style="margin: 0 0 0.75rem 0;">Why Grassroots Focus?</h4>
                     <p style="margin: 0;">While we often invite other stakeholders such as those already in leadership positions, these people are often not available for the 2-3 month program. Our approach focuses on individual grassroots farmers and community members to empower and up-skill them to become new leaders and lead the change.</p>
                 </div>
                 <div class="two-col-image animate-on-scroll">
@@ -260,7 +260,7 @@ get_header();
     </section>
 
     <!-- Evidence Based Section -->
-    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1920&q=80');">
+    <section class="section section-green">
         <div class="container">
             <div class="section-header" style="max-width: 100%;">
                 <h2 class="section-title" style="color: white;">Evidence-Based Content</h2>
@@ -279,7 +279,7 @@ get_header();
                     <p style="color: rgba(255,255,255,0.9);">We tested these in <strong>9 countries</strong> with <strong>12 species</strong> in <strong>23 cases</strong>.</p>
                 </div>
                 <div class="animate-on-scroll">
-                    <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: var(--radius-lg);">
+                    <div style="background: rgba(255,255,255,0.25); padding: 1.5rem; border-radius: var(--radius-lg);">
                         <h4 style="color: white; margin-bottom: 1rem;">Key Findings</h4>
                         <p style="color: rgba(255,255,255,0.9); margin-bottom: 1rem;">The two most consistent factors driving tolerance were:</p>
                         <div style="display: flex; gap: 1rem; flex-direction: column;">

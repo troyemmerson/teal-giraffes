@@ -77,7 +77,7 @@ get_header();
     </section>
 
     <!-- Testimonials Section -->
-    <section class="section section-testimonials">
+    <section class="section section-testimonials section-green">
         <div class="container">
             <div class="section-header">
                 <span class="script-label">Testimonials</span>

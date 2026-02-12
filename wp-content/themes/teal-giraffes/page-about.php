@@ -91,7 +91,7 @@ get_header();
     </section>
 
     <!-- Founder Section -->
-    <section class="challenge-section" style="background-image: url('https://images.unsplash.com/photo-1474511320723-9a56873571b7?w=1920&q=80');">
+    <section class="section-green section">
         <div class="container">
             <div class="two-col" style="gap: 4rem; align-items: center;">
                 <div class="two-col-image animate-on-scroll">
@@ -99,7 +99,7 @@ get_header();
                 </div>
                 <div class="two-col-content animate-on-scroll" style="color: white;">
                     <h2 style="color: white; margin-bottom: 0.5rem;">Meet the Founder</h2>
-                    <h3 style="color: var(--color-secondary); margin-bottom: 1.5rem;">Dr. Ruth Kansky</h3>
+                    <h3 style="color: #ffffff; margin-bottom: 1.5rem; opacity: 0.8;">Dr. Ruth Kansky</h3>
                     <p style="color: rgba(255,255,255,0.9);">Ruth Kansky is the director and founder of Teal Giraffes. With extensive research experience in human-wildlife coexistence across multiple continents, she combines scientific rigor with practical community-based approaches.</p>
                     <p style="color: rgba(255,255,255,0.9);">Her work has been published in leading conservation journals and has directly informed the development of our innovative social learning programs.</p>
                 </div>
@@ -161,19 +161,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Newsletter Section -->
-    <section class="newsletter">
-        <div class="container">
-            <h2>Stay Connected</h2>
-            <p>Hear updates on our work, individual stories, new programs and their impacts</p>
-            <form class="newsletter-form" action="#" method="post">
-                <input type="email" name="email" placeholder="Enter your email" required>
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
-    </section>
+    </section> 
 
     <!-- CTA Section -->
     <section class="cta-banner" style="background-image: url('https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1920&q=80');">

@@ -1023,10 +1023,16 @@ p {
     background-color: #bfd8661a;
 }
 
-.feature-card:last-child:hover {
+.feature-card:nth-child(3):hover {
     box-shadow: var(--shadow-lg);
     border-color: var(--color-accent);
     background-color: #ed955826;
+}
+
+.feature-card:nth-child(4):hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary);
+    background-color: #1e98920a;
 }
 
 .feature-icon {
@@ -1146,7 +1152,7 @@ p {
    ======================================== */
 
 /* Testimonials Section with Primary Background */
-.section-testimonials {
+.section-green {
     background: var(--color-primary);
 }
 
@@ -1252,6 +1258,12 @@ p {
 .testimonial-role {
     font-size: 0.875rem;
     color: var(--color-text-muted);
+}
+
+/* Approach Section */
+
+.section-approach * {
+    color: #fff;
 }
 
 /* Testimonial Slider */
@@ -1650,6 +1662,10 @@ p {
     padding: 1.5rem 0;
     font-size: 0.8125rem;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-bottom p {
+    color: #999;
 }
 
 .footer-bottom a {
