@@ -153,7 +153,6 @@ h6 {
 
 p {
     margin-bottom: 1.25rem;
-    color: var(--color-text-light);
 }
 
 .lead {
@@ -593,6 +592,10 @@ p {
     color: var(--color-text-light);
     max-width: 600px;
     margin: 0 auto;
+}
+
+.section-green .section-subtitle {
+    color: #fff;
 }
 
 /* ========================================
@@ -1499,10 +1502,14 @@ p {
 
 .footer-main {
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-columns: 1.5fr 0.75fr 1fr;
     gap: 3rem;
     padding-bottom: 3rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-about {
+    padding-right: 15%;;
 }
 
 .footer-about .site-logo {
@@ -1555,15 +1562,9 @@ p {
     color: var(--color-white);
 }
 
-.footer-widget ul {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-}
-
 .footer-widget a {
     color: rgba(255, 255, 255, 0.65);
-    font-size: 0.9375rem;
+    font-size: 0.9rem;
     transition: all var(--transition);
 }
 
@@ -1698,26 +1699,15 @@ p {
 .page-hero {
     position: relative;
     background-color: var(--color-primary);
-    padding: 6rem 0 7rem;
+    padding: 6rem 0;
     text-align: center;
     color: var(--color-white);
     overflow: hidden;
 }
 
-.page-hero::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    right: 0;
-    height: 80px;
-    background: var(--color-white);
-    clip-path: ellipse(75% 100% at 50% 100%);
-}
-
 .page-hero h1 {
     color: var(--color-white);
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     position: relative;
 }
 
@@ -2060,49 +2050,31 @@ textarea.form-control {
     }
 
     .menu-toggle {
-        display: block;
+        display: none;
     }
 
     .main-nav {
-        position: fixed;
-        top: 72px;
-        left: 0;
-        right: 0;
-        background: var(--color-white);
-        padding: 1.5rem;
-        box-shadow: var(--shadow-lg);
-        display: none;
-        flex-direction: column;
-        border-top: 1px solid var(--color-gray-200);
-    }
-
-    .main-nav.is-open {
         display: flex;
     }
 
     .main-nav ul {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .main-nav li {
-        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.25rem;
     }
 
     .main-nav a {
-        display: block;
-        padding: 1rem;
-        text-align: center;
+        padding: 0.5rem 0.75rem;
+        font-size: 0.85rem;
     }
 
     .main-nav .menu-btn-donate {
-        margin-top: 0.5rem;
         margin-left: 0;
     }
 
     .main-nav .menu-btn-donate > a {
-        text-align: center;
-        margin: 0;
+        padding: 0.5rem 1rem;
+        font-size: 0.85rem;
     }
 
     .hero {
